@@ -1,5 +1,5 @@
 
-public class One {
+public class Tone {
     public static void main(String[] args) {
 
         // Increment and Decrement

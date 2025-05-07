@@ -6,9 +6,9 @@ public class Five {
         // Coin Flip Decision
 
         Random coinFlip = new Random();
-        int flip1 = coinFlip.nextInt(2) + 1; // 1 = Heads, 2 = Tails
-        int flip2 = coinFlip.nextInt(2) + 1;
-        int flip3 = coinFlip.nextInt(2) + 1;
+        int flip1 = coinFlip.nextInt(2); // 1 = Heads, 2 = Tails
+        int flip2 = coinFlip.nextInt(2);
+        int flip3 = coinFlip.nextInt(2);
 
         int total = flip1 + flip2 + flip3;
 
